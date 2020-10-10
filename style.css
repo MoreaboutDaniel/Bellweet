@@ -95,17 +95,27 @@ header{
     margin:auto;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-gap: 10%;
+    grid-template-columns: 60% 30%;
     font-family: 'Libre Baskerville', serif;
 }
 
 .hero_container h2{
-    padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 52Px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-top: 40px;
+}
+.hero_container h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
     font-weight: 900;
 }
-
+.hero_container p{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+}
 .hero_container--info{
     width: 90%;
 }
@@ -123,6 +133,7 @@ header{
     font-family: 'Montserrat', sans-serif;
     width: 150px;
     height: 60px;
+    margin-top: 35px;
 }
 
 .hero_container--button:hover {
@@ -136,60 +147,56 @@ header{
 
 .hero_container--icons {
     align-items: center;
-    padding-top: 20px;
+/*     padding-top: 20px; */
 }
 
 .hero_container--icons img{
     width: 20px;
-    padding-top: 30px;
+    margin-top: 35px;
     margin-right: 15px;
 }
 
 /* Termina el hero */
-
-.main_container{
-    width: 100%;
-}
-.main_container h2{
-    text-align: center;
-    padding-top: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 52px;
-    font-weight: 900;
-}
- 
-.main_grid{
-    display: grid;
-    width: 90%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2;
-    grid-gap: 50px;
+/* Inicia caja */
+.Skills{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
 }
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.card img{
+    width: 20px;   
+    }
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+/* Termina cajas */
 
-
-
-.main_grid > article{
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+.Proyects{
+    width: 90%;
+    height: 200px;
     text-align: center;
-}
-.main_grid > article img{
-    width: 100%;
-}
-
-.text{
-    width: 100%;
+/*     border:15px solid #0165ca; */
+    margin: auto;
+    margin-top: 200px;
 } 
-.text > h3{
-    text-transform: uppercase;
-}
-
-footer{
-    width: 100%;
-    height: 150px;
-    background-color: #153F78;
-}
 /* Aqui empieza la pagina dos about me */
 .about_container{
     width: 100%;
@@ -200,11 +207,28 @@ footer{
     grid-template-columns: 50% 50%;
     font-family: 'Libre Baskerville', serif;
 }
-
+.wrap{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-template-rows: (2, 300px);
+}
+.grid{
+    grid-column: 1/4;
+    grid-row: 1;
+    height: 500px;
+    border:10px solid #0165ca;
+}
+.grids{
+    height: 300px;
+    border:10px solid #0165ca;
+}
 /* Aqui termina la pagina dos about me */
 
 
-
+@media screen (max-width: 1200px)
 
 
 
