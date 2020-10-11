@@ -192,6 +192,7 @@ header{
 .portfolio_container{
     width: 90%;
     margin: auto;
+    padding-top: 4.375rem;
 }
 .portfolio_nav{
     display: flex;
@@ -235,6 +236,7 @@ header{
 .grids{
     height: 18.75rem;
     border:10px solid #0165ca;
+    
 }
 /* Aqui termina la pagina dos about me */
 
