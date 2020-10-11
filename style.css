@@ -42,13 +42,13 @@ body{
 
 header{
     width: 90%;
-    height: 100px;
+    height: 6rem;
     margin: auto;
 }
 
 .header{
     width: 100%;
-    height: 100px;
+    height: 6rem;
     background: #ffffff;
     margin: auto;
     display: flex;
@@ -59,19 +59,19 @@ header{
 
 .header_logo{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.5rem;
     cursor: pointer;
     color: #000;
 /*     border: blueviolet solid 5px; */
 }
 .header_menu{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
 }
 .header_menu--a{
     text-decoration: none;
     color: #000000;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -84,14 +84,14 @@ header{
 
 .fondo{
     width: 100%;
-    height: 200px;
+    height: 12.5rem;
     background-color: #C6FCED;
 }
 
 /* Aqui termina la cabecera */
 .hero_container{
     width: 100%;
-    padding: 70px;
+    padding: 4.375rem;
     margin:auto;
     box-sizing: border-box;
     display: grid;
@@ -104,7 +104,7 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: 900;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 .hero_container h3{
     font-family: 'Montserrat', sans-serif;
@@ -114,7 +114,7 @@ header{
 .hero_container p{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 30px;
+    padding-top: 1.875rem;
 }
 .hero_container--info{
     width: 90%;
@@ -122,18 +122,18 @@ header{
 
 .hero_container--button {
 	background-color:transparent;
-	border-radius:10px;
+	border-radius: .625rem;
 	border:1px solid #0165ca;
 	display:inline-block;
 	cursor:pointer;
 	color:#0165ca;
 	font-family:Arial;
-	font-size:16px;
+	font-size: 1rem;
     text-decoration:none;
     font-family: 'Montserrat', sans-serif;
-    width: 150px;
-    height: 60px;
-    margin-top: 35px;
+    width: 9.375rem;
+    height: 3.75rem;
+    margin-top: 2.18rem;
 }
 
 .hero_container--button:hover {
@@ -151,9 +151,9 @@ header{
 }
 
 .hero_container--icons img{
-    width: 20px;
-    margin-top: 35px;
-    margin-right: 15px;
+    width: 1.25rem;
+    margin-top: 2.18rem;
+    margin-right: 1rem;
 }
 
 /* Termina el hero */
@@ -169,8 +169,8 @@ header{
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 300px;
-    height: 80px;
+    width: 18.75rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,26 +181,37 @@ header{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 .card img{
-    width: 20px;   
+    width: 1.25rem;   
     }
   /* Add some padding inside the card container */
   .container {
-    padding: 2px 16px;
+    padding: 2px 1rem;
   }
 /* Termina cajas */
+/* inicia portfolio */
+.portfolio_container{
+    width: 90%;
+    margin: auto;
+}
+.portfolio_nav{
+    display: flex;
+    justify-content: flex-end;
+}
+/* Termina portfolio */
+
 
 .Proyects{
     width: 90%;
-    height: 200px;
+    height: 12.5rem;
     text-align: center;
 /*     border:15px solid #0165ca; */
     margin: auto;
-    margin-top: 200px;
+    margin-top: 12.5rem;
 } 
 /* Aqui empieza la pagina dos about me */
 .about_container{
     width: 100%;
-    padding: 70px;
+    padding: 4.3rem;
     margin:auto;
     box-sizing: border-box;
     display: grid;
@@ -212,17 +223,17 @@ header{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
+    grid-gap: 2rem;
     grid-template-rows: (2, 300px);
 }
 .grid{
     grid-column: 1/4;
     grid-row: 1;
-    height: 500px;
+    height: 31.25rem;
     border:10px solid #0165ca;
 }
 .grids{
-    height: 300px;
+    height: 18.75rem;
     border:10px solid #0165ca;
 }
 /* Aqui termina la pagina dos about me */
