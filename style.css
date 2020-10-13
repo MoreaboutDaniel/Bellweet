@@ -159,17 +159,20 @@ header{
 /* Termina el hero */
 /* Inicia caja */
 .Skills{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    width: 90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    margin: auto;
+    justify-content: center;
 }
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 18.75rem;
+    border: 1px solid #0165ca;;
+    border-radius: 8px;
+    width: 90%;
     height: 5rem;
     display: flex;
     justify-content: center;
@@ -192,18 +195,53 @@ header{
 .portfolio_container{
     width: 90%;
     margin: auto;
-    padding-top: 4.375rem;
+    padding-top: 150px;
+}
+.portfolio_container h3{
+    font-size: 2.2rem;
+    padding-top: 30px;
+    padding-left: 37px;
+    letter-spacing: 2px;
+}
+.portfolio_container p{
+    padding-left: 37px;
+    padding-top: 35px;
+    font-size: 1.4rem;
+    color: #bbb;
+    font-weight: 100;
 }
 .portfolio_nav{
     display: flex;
     justify-content: flex-end;
 }
 .portfolio_nav a{
-   margin-right: 20px; 
+    color: #bbb;
+    text-decoration: none;
+    padding-top: 37px;
+    font-size: 1.4rem;
 }
 .portfolio_info{
     display: flex;
     justify-content: space-between;
+}
+.portfolio_grid{
+    padding-top: 90px;
+    width: 95%;
+    margin:auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.portfolio_grid-card img{
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+/*     border: #000 1px solid; */
+}
+.portfolio_grid-container{
+    padding: 2px 16px;
 }
 /* Termina portfolio */
 
@@ -212,7 +250,6 @@ header{
     width: 90%;
     height: 12.5rem;
     text-align: center;
-/*     border:15px solid #0165ca; */
     margin: auto;
     margin-top: 12.5rem;
 } 
@@ -246,9 +283,6 @@ header{
     
 }
 /* Aqui termina la pagina dos about me */
-
-
-@media screen (max-width: 1200px)
 
 
 
