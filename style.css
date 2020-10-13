@@ -198,6 +198,13 @@ header{
     display: flex;
     justify-content: flex-end;
 }
+.portfolio_nav a{
+   margin-right: 20px; 
+}
+.portfolio_info{
+    display: flex;
+    justify-content: space-between;
+}
 /* Termina portfolio */
 
 
