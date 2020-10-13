@@ -178,7 +178,9 @@ header{
     justify-content: center;
     align-items: center;
   }
-  
+  .card:hover{
+      cursor: pointer;
+  }
   /* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -232,7 +234,9 @@ header{
     grid-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
 }
-
+.portfolio_grid-card:hover{
+    cursor: pointer;
+}
 .portfolio_grid-card img{
     transition: 0.3s;
     border-radius: 10px;
