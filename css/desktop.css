@@ -121,23 +121,30 @@ header{
 }
 
 .hero_container--button {
-	background-color:transparent;
-	border-radius: .625rem;
-	border:1px solid #0165ca;
-	display:inline-block;
+	background-color: #05334f;
+    border-radius: 7px;
+    display:inline-block;
+    border: none;
 	cursor:pointer;
-	color:#0165ca;
+    color: #ffffff;
 	font-family:Arial;
-	font-size: 1rem;
     text-decoration:none;
     font-family: 'Montserrat', sans-serif;
-    width: 9.375rem;
-    height: 3.75rem;
+    width: 141px;
+    height: 44px;
     margin-top: 2.18rem;
+    padding: 16px 24px;
+    font-size: 16px;
+    padding: 16px 24px;
+    transform: translate3d(0, 0, 0);
+    white-space: normal;
+    width: auto;
+    height: auto;
 }
 
 .hero_container--button:hover {
-	background-color:transparent;
+    background-color:#05334f;
+    border: none;
 }
 
 .hero_container--button:active {
@@ -170,7 +177,7 @@ header{
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border: 1px solid #0165ca;;
+    border: 1px solid#05334f;
     border-radius: 8px;
     width: 90%;
     height: 5rem;
@@ -209,7 +216,7 @@ header{
     padding-left: 37px;
     padding-top: 35px;
     font-size: 1.4rem;
-    color: #bbb;
+    color: #111111;
     font-weight: 100;
 }
 .portfolio_nav{
@@ -217,9 +224,10 @@ header{
     justify-content: flex-end;
 }
 .portfolio_nav a{
-    color: #bbb;
+    color: #111111;
     text-decoration: none;
     padding-top: 37px;
+    padding-right: 37px;
     font-size: 1.4rem;
 }
 .portfolio_info{
@@ -257,6 +265,13 @@ header{
     margin: auto;
     margin-top: 12.5rem;
 } 
+
+
+footer{
+    height: 200px;
+    background-color: #111111;
+}
+
 /* Aqui empieza la pagina dos about me */
 .about_container{
     width: 100%;
