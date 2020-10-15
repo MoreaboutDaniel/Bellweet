@@ -1,4 +1,5 @@
 
+@media screen and (min-width: 1024px){
 *{
     margin: 0px;
     padding: 0;
@@ -304,7 +305,17 @@ footer{
 /* Aqui termina la pagina dos about me */
 
 
-
+    
+}
+@media screen and (max-width: 1075px){
+    
+}
+@media screen and (max-width: 1250px){
+    
+}
+@media screen and (max-width: 1370px){
+    
+}
 
 
 
