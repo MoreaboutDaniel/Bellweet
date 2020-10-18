@@ -1,123 +1,134 @@
-@media screen and (max-width: 320px){
-
-}
-@media screen and (max-width: 360px){
-
-}
-@media screen and (max-width: 480px){
-    
-}
-@media screen and (max-width: 599px){
-
+@media screen and (min-width: 320px){
 *{
-    margin: 0px;
+    margin: 0;
     padding: 0;
-    font-family: 'Libre Baskerville', serif;
     box-sizing: border-box;
-    /* border: #000000 solid 2px; */
 }
-body{
-    background: white;
-    color:#000000; 
-}
-
-
-
+/* aqui empieza los estilos de header */
 header{
-    width: 90%;
-    height: 6rem;
-    margin: auto;
+    width: 100%;
+    padding: 20px;
+    /* border: 1px solid salmon; */
 }
 .header{
     width: 100%;
-    height: 6rem;
-    background: #ffffff;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-/*     border: aqua solid 5px; */
+    margin: auto;
 }
 .header_logo{
+    font-size: 1.8rem;
     text-decoration: none;
-    font-size: 1.5rem;
-    cursor: pointer;
     color: #000;
-/*     border: blueviolet solid 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.header_menu--a {
+.header_menu{
     display: none;
 }
-.hero_container{
+.menu_movil-button img{
+    width: 15px;
+    margin-right: 5px;
     display: flex;
-    width: 90%;
-    margin: auto;
-/*     border: #000000 solid 1px; */
-    margin-top: 30px;
+}
+.menu_movil-button{
+    border: 1px solid #05334f;
+    padding: 16px 20px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #05334f;
+    display: flex;
+    align-items: center;
+}
+/* aqui terminan los estilos de header */
+/* aqui empieza los estilos de hero */
+.hero_container{
+    width:  100%;
+    /* border: 1px solid red; */
+}
+.hero_container img{
+    width:  20px;
 }
 .hero_container--info{
-    width: 100%;
-    text-align: center;
+    /* margin: 50px auto 0px auto; */
+    padding: 20px;
+    margin-top: 20px;
 }
-.hero_container--info h2{
-    font-size: 32px;
-    font-weight: 600;
+.hero_container--info h2 {
+    margin: auto;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
 }
 .hero_container--info h3{
     display: none;
 }
 .hero_container--info p{
+    margin: 30px auto;
     font-size: 1rem;
-    padding: 2rem;
+    text-align: center;    
 }
 .hero_container--button {
-	background-color: #05334f;
-    border-radius: 7px;
-    display:inline-block;
-    border: none;
-	cursor:pointer;
-    color: #ffffff;
-	font-family:Arial;
-    text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
-    width: 141px;
-    height: 60px;
-    margin-top: 1rem;
-    padding: 16px 24px;
-    font-size: 16px;
-    padding: 16px 24px;
-    transform: translate3d(0, 0, 0);
-    white-space: normal;
-    width: auto;
-    height: auto;
-}
-
-.hero_container--button:hover {
-    background-color:#05334f;
-    border: none;
-}
-.hero_container--img{
-    display: none;
-}
-.hero_container--icons {
+    border: 1px solid #05334f;
+    padding: 16px 20px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #05334f;
+    display: flex;
     align-items: center;
-/*     padding-top: 20px; */
+    margin: auto;
+    border-radius: .5rem;
 }
-
-.hero_container--icons img{
-    width: 1.25rem;
-    margin-top: 2.18rem;
-    margin-right: 1rem;
+.hero_container--icons{
     display: none;
 }
-.card img{
-    width: 1.25rem;   
-    }
+.hero_container--img img {
+    display: none;
 }
-@media screen and (min-width: 600px){
-    
+/* aqui terminan los estilos de hero */
+/* aqui inician los estilos de skills */
+.Skills{
+    width: 90%;
+    margin: auto;
 }
-@media screen and (min-width: 700px){
-    
+.Skills img{
+    width: 20px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+    height: 100px;
+}
+.container{
+    border: #05334f 1px solid;
+}
+.card figure img{
+    display: flex;
+    align-items: center;
+}
+.card-container{
+    grid-column:2/3 ;
+    border: #05334f 1px solid;
+}
+/* aqui terminan los estilos de skills */
+/* aqui inician los estilos de portfolo */
+.portfolio_container{
+    width: 90%;
+    border: 1px solid magenta;
+    margin: auto;
+}
+.portfolio_container img{
+    width: 100px;
+}
+.portfolio_grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+}
+
+/* aqui terminan los estilos de skills */
 }

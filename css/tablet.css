@@ -1,7 +1,5 @@
-@media screen and (min-width: 768px){
-    
-}
-@media screen and (min-width: 800px){
+
+@media screen and (min-width: 799px){
     *{
         margin: 0px;
         padding: 0;
@@ -68,6 +66,7 @@
     /*     border: blueviolet solid 5px; */
     }
     .header_menu{
+        display: flex;
         font-size: 1.25rem;
         font-family: 'Montserrat', sans-serif;
     }
@@ -82,7 +81,9 @@
         border-bottom: 3px solid #1F28CF; 
         padding: 0 0 4px;
     }
-    
+    .menu__movil{
+        display: none;
+    }
     /* Aqui termina la cabecera */
     
     .fondo{
@@ -94,7 +95,6 @@
     /* Aqui termina la cabecera */
     .hero_container{
         width: 100%;
-        padding: 4.375rem;
         margin:auto;
         box-sizing: border-box;
         display: grid;
@@ -107,20 +107,22 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 2.5rem;
         font-weight: 900;
-        padding-top: 2.5rem;
-    }
-    .hero_container h3{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2.5rem;
-        font-weight: 900;
     }
     .hero_container p{
         font-size: 1rem;
         font-family: 'Montserrat', sans-serif;
-        padding-top: 1.875rem;
+
     }
     .hero_container--info{
         width: 90%;
+    }
+    .hero_container--info h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        padding-top: 10px;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
     }
     
     .hero_container--button {
@@ -157,6 +159,7 @@
     
     .hero_container--icons {
         align-items: center;
+        display: flex;
     /*     padding-top: 20px; */
     }
     
@@ -165,7 +168,10 @@
         margin-top: 2.18rem;
         margin-right: 1rem;
     }
-    
+    .hero_container--img img{
+        display: flex;
+        width: 100%;
+    }
     /* Termina el hero */
     /* Inicia caja */
     .Skills{

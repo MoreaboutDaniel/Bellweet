@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 800px){
 *{
     margin: 0px;
     padding: 0;
@@ -99,23 +99,26 @@ header{
     grid-gap: 10%;
     grid-template-columns: 60% 30%;
     font-family: 'Libre Baskerville', serif;
+    text-align: justify;
 }
 
 .hero_container h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
-    padding-top: 2.5rem;
+    text-align: justify;
+
 }
 .hero_container h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 900;
+    text-align: justify;
 }
-.hero_container p{
+.hero_container--info p{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 1.875rem;
+    text-align: justify;
 }
 .hero_container--info{
     width: 90%;
@@ -199,6 +202,11 @@ header{
   /* Add some padding inside the card container */
   .container {
     padding: 2px 1rem;
+    border: none;
+  }
+  .card-container {
+    padding: 2px 1rem;
+    border: none;
   }
 /* Termina cajas */
 /* inicia portfolio */
