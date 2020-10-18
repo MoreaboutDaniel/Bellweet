@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bellweet</title> 
+    <title>Bellweet </title> 
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (min-width:320px)">
+    <link rel="stylesheet" href="css/tablet.css"> 
+    <link rel="stylesheet" href="css/desktop.css"> 
     <meta name="description" content="Website">
     <meta name="Robots" content="Index, follow">
     <meta name="theme-color" content="#15210B">
     <meta property="og:description" content="Somos una agencia de de desarrollo web, para empresas y individuos que van a cambiar el mundo">
     <meta property="og:type" content="website">
+    <base target="blank">
     <meta property="og:url" content="https://bellweet.com">
 </head>
 <body>
@@ -26,14 +29,18 @@
                     <a class="header_menu--a" href="projects.html">Portfolio</a>
                     <a class="header_menu--a" href="projects.html">Contact</a>
                 </nav>
+                <nav class="menu__movil">
+                  <button class="menu_movil-button"> <a href="https://www.instagram.com/bellweet"><img src="svg/instagram (1).svg" alt="Instagram"></a> Menu</button>
+                </nav>
         </div>
     </header>
 
     <div class="hero_container">
         <div class="hero_container--info">
-            <h2>I’m a Junior Software Engineer and Web Developer</h2>
+            <h2>I’m a Junior Software Engineer & Web Developer</h2>
+            <p>Product designer and digital director working in design field for 4 years so far. specialed in UI & UX</p>
             <button class="hero_container--button">Download CV</button>
-            <button class="hero_container--button">Download CV</button>
+<!--             <button class="hero_container--button">Portfolio</button> -->
             <div class="hero_container--icons">
                 <a href="https://www.linkedin.com/in/moreaboutdaniel/"><img src="svg/logotipo-de-linkedin.svg" alt="Linkedin"></a>
                 <a href="https://github.com/MoreaboutDaniel"><img src="svg/github.svg" alt="Github"></a>
@@ -46,38 +53,84 @@
         </div>
     </div>
 
-<!--     <figure class="fondo">
-        <img src="" alt="">
-    </figure> -->
+    <h2>Skills</h2>
+    <div class="Skills">
+    <div class="card">
+        <div class="container">
+          <figure><img src="svg/008-youtube.svg" alt=""></figure>
+          <h4><b>Ux & ui designer</b></h4>
+          <p>Designer for you</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-container">
+          <figure><img src="svg/008-youtube.svg" alt=""></figure>
+          <h4><b>Ux & ui designer</b></h4>
+          <p>Designer for you</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="container">
+          <figure><img src="svg/008-youtube.svg" alt=""></figure>
+          <h4><b>Ux & ui designer</b></h4>
+          <p>Designer for you</p>
+        </div>
+      </div> 
+    </div>
 
-    <div class="main_container">
-        <h2>Case Study</h2>
-            <main class="main_grid">
-                <article class="container_portfolio">
-                    <img src="img/11.jpeg"  alt="">
-                        <div class="text square">
-                        <h3>Academica</h3>
-                        <p>Rethinking the experience of online education</p>
-                        <button>Read more</button>
-                        </div>
-                </article>
-                <article class="">
-                    <img src="img/11.jpeg"  alt="">
-                        <div class="text square">
-                            <h3>Academica</h3>
-                            <p>Rethinking the experience of online education</p>
-                            <button>Read more</button>
-                        </div>
-                </article>
-                <article class="">
-                    <img src="img/11.jpeg"  alt="">
-                        <div class="text square">
-                            <h3>Academica</h3>
-                            <p>Rethinking the experience of online education</p>
-                            <button>Read more</button>
-                        </div>
-                </article>
-            </main>
+    <div class="portfolio_container">
+      <h3>My Project</h3>
+      <div class="portfolio_info">
+        <p>Next this not shut rethoric best had well of <br> was on facility of presented</p>
+        <nav class="portfolio_nav">
+          <a class="portfolio_nav-a" href="projects.html">All</a>
+      </nav>
+      </div>
+      <div class="portfolio_grid">
+        <div class="portfolio_grid-card">
+          <figure><img src="img/web1.png" alt="" width="100%"></figure>
+          <div class="portfolio_grid-container">
+<!--               <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, labore?</p> -->
+          </div>
+        </div>
+        <div class="portfolio_grid-card">
+          <figure><img src="img/web2.png" alt="" width="100%"></figure>
+          <div class="portfolio_grid-container">
+<!--               <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, labore?</p> -->
+          </div>
+        </div>
+        <div class="portfolio_grid-card">
+          <figure><img src="img/web1.png" alt="" width="100%"></figure>
+          <div class="portfolio_grid-container">
+<!--               <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, labore?</p> -->
+          </div>
+        </div>
+        <div class="portfolio_grid-card">
+          <figure><img src="img/web1.png" alt="" width="100%"></figure>
+          <div class="portfolio_grid-container">
+<!--               <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, labore?</p> -->
+          </div>
+        </div>
+        <div class="portfolio_grid-card">
+          <figure><img src="img/web1.png" alt="" width="100%"></figure>
+          <div class="portfolio_grid-container">
+<!--               <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, labore?</p> -->
+          </div>
+        </div>
+        <div class="portfolio_grid-card">
+          <figure><img src="img/web1.png" alt="" width="100%"></figure>
+          <div class="portfolio_grid-container">
+<!--               <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, labore?</p> -->
+          </div>
+        </div>
+      </div>
+      <button class="hero_container--button">Download CV</button>
     </div>
 
      <section class="footer">
