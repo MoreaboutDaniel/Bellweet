@@ -89,9 +89,15 @@ header{
 }
 /* aqui terminan los estilos de hero */
 /* aqui inician los estilos de skills */
+.tittle-skills{
+    margin-top: 50px;
+    text-align: center;
+}
+
 .Skills{
     width: 90%;
     margin: auto;
+    margin-top: 30px;
 }
 .Skills img{
     width: 20px;
@@ -117,18 +123,65 @@ header{
 /* aqui inician los estilos de portfolo */
 .portfolio_container{
     width: 90%;
-    border: 1px solid magenta;
+    /* border: 1px solid magenta; */
     margin: auto;
+    margin-top: 3rem;
+}
+.portfolio_container h3{
+    font-size: 2rem;
 }
 .portfolio_container img{
-    width: 100px;
+    width: 100%;
+    margin: auto;
+}
+.portfolio_nav-a{
+    display: none;
 }
 .portfolio_grid{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-self: center;
+    grid-template-columns: 1fr;
+    margin: auto;
 }
-
+.portfolio_grid-card{
+    padding: 20px;
+}
 /* aqui terminan los estilos de skills */
+/* aqui inician los estilos de footer */
+.footer{
+    background-color: #05334f;
+    margin-top: 50px;
+}
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer nav{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer nav a p{
+    padding: 10px;
+}
+.footer-icons img{
+    width: 20px;
+    display: flex;
+}
+.footer-list{
+}
+.footer-list h3{
+    padding: 8px 16px;
+}
+.footer-list a{
+    display: flex;
+    font-weight: bold;
+    padding: 8px 16px;
+}
+.footer-list p{
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+/* aqui terminan los estilos de footer */
 }
